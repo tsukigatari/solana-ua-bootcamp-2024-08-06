@@ -1,0 +1,11 @@
+[package]
+name = "send_sol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+solana-client = "2.0.6"
+solana-sdk = "2.0.5"
+dotenvy = "0.15.7"
+serde_json = "1.0.124"
