@@ -1,0 +1,16 @@
+[package]
+name = "create_token_metadata"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+solana-client = "2.0.6"
+solana-sdk = "2.0.6"
+solana-program = "1.18.22"
+spl-token = "6.0.0"
+spl-associated-token-account = "4.0.0"
+dotenvy = "0.15.7"
+serde_json = "1.0.124"
+tokio = { version = "1.39.3", features = ["full"] }
+mpl-token-metadata = "4.1.2"
